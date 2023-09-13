@@ -38,8 +38,8 @@ We originally performed EDA on each feature of our datset over the course of our
 * Sales are maximum during the Public Holidays, where are during the religious occassions, like Easter or Christmas, the sales are lower , most of sales of B type assortment of all Holiday.
 * As my ovservation the highest sales belonged to the store type A due to the high number of type a stores in our dataset. Store type a and c had a similar kind of sales and customer share.
 * We can observe that most of the stores remain closed during State holidays. But it is interesting to note that the number of stores opened during School Holidays were more than that were opened during State Holidays.
-* The R Squared score of all Liner Regression Algorithm with or without Regularization are quit good which is 0.82.
-* the R Squared score of the Decision Tree Regressor model we got 0.95 on test set which is also good.
+* The R Squared score of all Liner Regression Algorithm with or without Regularization are quit good which is 0.70
+* the R Squared score of the Decision Tree Regressor model we got 0.94 on test set which is also good.
 * The Random Forest regressor model perform very well amoung the others.
 * The Gradient Boosting Regressor model perform well and give 0.82 R Squared on test set . After Applying GridSearchCV which is a optimal algorithm search tool improve our R Squared score from 0.94 to 0.96 which almost nearly the random forest regression model.
 * There is no such over fitting seen.
